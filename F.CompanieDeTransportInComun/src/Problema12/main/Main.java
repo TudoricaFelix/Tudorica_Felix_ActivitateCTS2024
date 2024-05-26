@@ -1,6 +1,8 @@
-package Problema12;
+package Problema12.main;
 
-public class ChainOfResponsability {
+import Problema12.ChainOfResponsability.*;
+
+public class Main {
     public static void main(String[] args) {
         Troleibuz troleibuz = new Troleibuz();
         Autobuz autobuz = new Autobuz();

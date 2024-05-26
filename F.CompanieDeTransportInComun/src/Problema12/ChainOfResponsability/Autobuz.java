@@ -1,4 +1,4 @@
-package Problema12;
+package Problema12.ChainOfResponsability;
 
 public class Autobuz extends AHandler{
     @Override

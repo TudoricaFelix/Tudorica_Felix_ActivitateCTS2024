@@ -1,9 +1,9 @@
-package Problema12;
+package Problema12.ChainOfResponsability;
 
 public class Troleibuz extends AHandler{
 
     @Override
-    void alegereMijlocDeTransport(Calator calator) {
+    public void alegereMijlocDeTransport(Calator calator) {
         if(calator.getDistanta() < 3){
             System.out.println("Calatorul " + calator.getNume() + " ar trebui sa mearga cu troleibuzul");
         }

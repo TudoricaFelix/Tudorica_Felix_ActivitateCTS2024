@@ -1,6 +1,11 @@
-package Problema16;
+package Problema16.main;
 
-public class ChainOfResponsability {
+import Problema16.ChainOfResponsability.Client;
+import Problema16.ChainOfResponsability.Email;
+import Problema16.ChainOfResponsability.NotificareManager;
+import Problema16.ChainOfResponsability.Telefon;
+
+public class Main {
     public static void main(String[] args) {
         Telefon telefon = new Telefon();
         Email email = new Email();

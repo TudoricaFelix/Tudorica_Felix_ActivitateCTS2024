@@ -1,4 +1,4 @@
-package Problema16;
+package Problema16.ChainOfResponsability;
 
 public class Email extends AHandler{
     @Override

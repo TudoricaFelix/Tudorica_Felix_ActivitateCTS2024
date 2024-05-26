@@ -1,4 +1,4 @@
-package Problema12;
+package Problema16.ChainOfResponsability;
 
 public abstract class AHandler {
     private AHandler nextHandler;
@@ -10,5 +10,5 @@ public abstract class AHandler {
     public void setNextHandler(AHandler nextHandler) {
         this.nextHandler = nextHandler;
     }
-    abstract void alegereMijlocDeTransport(Calator calator);
+    abstract void notificareClient(Client client);
 }
